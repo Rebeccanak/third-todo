@@ -1,0 +1,71 @@
+
+
+
+
+body {
+    background-color: #f2f2f2;
+  }
+  
+  
+  .to-dos {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .to-dos__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .to-dos__input-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  
+  .to-dos__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  
+  .remove, .tick {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .remove:hover, .tick:hover {
+    background-color: #e44444;
+  }
+  
+  
+  .to-dos__delete-btn {
+    /* background-color: #f44336; */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .to-dos__delete-btn:hover {
+    background-color: #9b0d0d;
+  }
+  

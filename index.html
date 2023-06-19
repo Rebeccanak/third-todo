@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <article class="to-dos">
+        <h1 class="to-dos__title">My To Do List</h1>
+        <label for="toDos">
+          <input type="text" id="toDos" class="to-dos__input-box" placeholder="enter a to do" tabindex="-1">
+        </label>
+        <ul class="to-dos__list">
+          <li class="to-dos__list-item">
+            Doing the laundry <button class="remove">X</button> <button class="tick">✔</button>
+          </li>
+          <li class="to-dos__list-item">
+            Coding to do list <button class="remove">X</button> <button class="tick">✔</button>
+          </li>
+          <li class="to-dos__list-item">
+            Food shopping <button class="remove">X</button> <button class="tick">✔</button>
+          </li>
+        </ul>
+        <button class="to-dos__delete-btn">Delete All To Dos</button>
+      </article>
+    <script src="index.js"></script>
+</body>
+</html>
